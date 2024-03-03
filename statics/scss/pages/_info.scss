@@ -1,0 +1,117 @@
+.home_info {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    background-color: rgb(246, 246, 246);
+    .owl-theme {
+        img{
+            border-radius: 10px
+        }
+        .owl-nav {
+            [class*=owl-] {
+              transition: transform .3s, opacity .3s, background .3s, box-shadow .3s;
+              width: 36px;
+              height: 36px;
+              position: absolute;
+              top: 50%;
+              transform: translateY(-50%);
+              border: none;
+              background: transparent;
+              outline: none;
+              padding: 0;
+              margin: 0;
+              font-size: 36px;
+            }
+          
+            .owl-prev {
+              left: 2%;
+            }
+          
+            .owl-next {
+              right: 2%;
+            }
+          }
+    }
+  }
+  
+  .home_info_main {
+    .home_info_icon {
+      width: 50px;
+      float: left;
+    }
+  
+    .home_info_cont {
+      float: left;
+      width: calc(100% - 65px);
+      margin-left: 15px;
+  
+      h1,h2 {
+        font-size: 18px;
+        color: #f10e1d;
+  
+        span {
+          font-size: 25px;
+          color: #10793d;
+          font-weight: 700;
+          display: block;
+          margin-top: 3px;
+        }
+      }
+    }
+  
+    margin-bottom: 30px;
+  }
+  
+  .home_info_desc {
+    @media only screen and (max-width: 48em){
+      margin-bottom: 30px;
+    }
+    p {
+      margin-bottom: 12px;
+    }
+  
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+  
+      li {
+        max-width: 25%;
+        flex: 0 0 25%;
+        font-weight: 700;
+        margin-bottom: 10px;
+        @media only screen and (max-width: 48em){
+          max-width: 50%;
+          flex: 0 0 50%;
+          font-size: 16px;
+          margin-bottom: 30px;
+        }
+  
+        img {
+          width: 30px;
+          margin-right: 5px;
+          @media only screen and (max-width: 48em){
+            width: 40px;
+          }
+        }
+      }
+    }
+  
+    .more {
+      margin-top: 15px;
+      @media only screen and (max-width: 48em){
+        margin-top: 0;
+      }
+  
+      a {
+        border: 2px solid;
+        border-image-slice: 1;
+        border-image-source: linear-gradient(to right bottom, #e03d03, #0d7b3e);
+        padding: 10px 20px;
+        line-height: 45px;
+        text-transform: uppercase;
+        color: #334862;
+      }
+    }
+ 
+      
+  }
+  
