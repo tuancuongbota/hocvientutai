@@ -1,1 +1,1 @@
-fix home vs tích hợp mobile home
+update home, tin tức vs tích hợp mobile home
