@@ -1,0 +1,54 @@
+.nav-pagination {
+    > li {
+      > {
+        a, span {
+          border: 2px solid #334862;
+          border-radius: 99px;
+          display: block;
+          font-size: 14px;
+          font-weight: bolder;
+          height: 36px;
+          line-height: 33px;
+          min-width: 36px;
+          padding: 0 7px;
+          text-align: center;
+          transition: all .3s;
+          vertical-align: top;
+          width: auto;
+          color: #334862;
+        }
+      }
+  
+      i {
+        font-size: 1.2em;
+        top: -1px;
+        vertical-align: middle;
+      }
+  
+      > {
+        .current, a:hover, span:hover {
+          background-color: #446084;
+          border-color: #446084;
+          color: #fff;
+        }
+      }
+  
+      display: inline-block;
+      margin: 0 5px;
+  
+      &:first-child {
+        margin-left: 0;
+      }
+  
+      > a i {
+        line-height: 33px;
+      }
+    }
+  
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
