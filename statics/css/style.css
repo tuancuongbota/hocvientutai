@@ -7971,7 +7971,8 @@ img { max-width: 100%; vertical-align: middle; }
 .home_photo_library .col { margin-bottom: 30px; }
 @media only screen and (max-width: 48em) { .home_photo_library .col { margin-bottom: 10px; padding: 0 5px; } }
 
-.register_page { margin-bottom: 50px; }
+.register_page { margin-bottom: 100px; }
+@media only screen and (max-width: 48em) { .register_page { margin-bottom: 30px; } }
 .register_page h2 { font-weight: 700; font-style: normal; color: #202020; line-height: 1.3; margin-bottom: 15px; font-size: 28px; }
 @media only screen and (max-width: 767px) { .register_page h2 { font-size: 18px; } }
 .register_page input { border: 1px solid #019b44; border-radius: 5px; -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1); box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1); -webkit-box-sizing: border-box; box-sizing: border-box; color: #333; font-size: 14px; height: 39px; max-width: 100%; padding: 0 11px; -webkit-transition: color .3s, border .3s, background .3s, opacity .3s; transition: color .3s, border .3s, background .3s, opacity .3s; vertical-align: middle; width: 100%; margin-bottom: 15px; }
@@ -8045,7 +8046,7 @@ img { max-width: 100%; vertical-align: middle; }
 .home_news_small_item .home_news_small_cont { float: left; width: calc(100% - 75px); margin-left: 10px; }
 .home_news_small_item .home_news_small_cont h3 a { font-size: 15px; color: #4a4a4a; }
 
-.bg_page_all { padding-top: 50px; margin-bottom: 50px; padding-bottom: 50px; }
+.bg_page_all { padding-top: 50px; margin-bottom: 50px; padding-bottom: 50px; background-size: cover !important; background-position: 50% 50% !important; }
 .bg_page_all .page-title { font-size: 40px; color: #10793d; text-align: center; line-height: 1.2; text-transform: uppercase; font-weight: 700; font-style: normal; letter-spacing: .05em; margin-bottom: 20px; }
 .bg_page_all .breadcrumb { -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; background: transparent; margin: 0; padding: 0; }
 .bg_page_all .breadcrumb a { display: inline-block; padding: 5px 10px; text-decoration: none; color: #334862; font-size: 16px; }
@@ -8165,5 +8166,4 @@ img { max-width: 100%; vertical-align: middle; }
 .recruit_page .news_admissions .news_page_list .home_news_item .home_news_cont h3 { margin-bottom: 10px; }
 .recruit_page .news_admissions .news_page_list .home_news_item .home_news_cont h3 a { font-size: 16px; }
 .recruit_page .news_admissions .news_page_list .home_news_item .home_news_cont .home_news_desc { font-size: 15px; }
-
 /*# sourceMappingURL=style.css.map */
