@@ -1,1 +1,1 @@
-update all page vs tích hợp mobile 
+update all page vs tích hợp mobile !
