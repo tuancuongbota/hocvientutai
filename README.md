@@ -1,1 +1,1 @@
-update home, tin tức vs tích hợp mobile home
+update all page vs tích hợp mobile 
