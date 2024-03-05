@@ -1,0 +1,121 @@
+.recruit_page {
+   
+    .recruit_list{
+        padding-bottom: 40px;
+        .recruit_item {
+            margin: 0 auto;
+            background: #019b44;
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+            @media only screen and (max-width: 48em){
+                margin-bottom: 30px;
+            }
+          
+            .recruit_title a {
+              color: #fff;
+            }
+          
+            .recruit_icon {
+              margin-bottom: 10px;
+            }
+          }
+    }
+    .noti_recruit {
+        padding-top: 30px;
+        padding-bottom: 50px;
+        background-color: rgb(248, 248, 248);
+      
+        .home_news_item .home_news_cont {
+          h3 a {
+            font-size: 16px;
+          }
+      
+          .is-divider {
+            height: 2px;
+            margin: 7px 0;
+          }
+      
+          .home_news_desc {
+            font-size: 14px;
+            margin-top: 10px;
+          }
+        }
+        .noti_recruit_list .owl-theme {
+            .owl-nav {
+              [class*=owl-] {
+                width: 36px;
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                border: none;
+                background: transparent;
+                outline: none;
+                transition: all .3s;
+                margin: 0;
+                padding: 0;
+                opacity: 0;
+          
+                i {
+                  color: #111;
+                  font-size: 40px;
+                }
+              }
+          
+              .owl-prev {
+                left: -45px;
+                transform: translateY(-50%) translateX(20%);
+                @media only screen and (max-width: 767px){
+                    left: 0;
+                }
+              }
+          
+              .owl-next {
+                right: -45px;
+                transform: translateY(-50%) translateX(20%);
+                @media only screen and (max-width: 767px){
+                   right: 0;
+                }
+              }
+            }
+          
+            &:hover .owl-nav [class*=owl-] {
+              transform: translateY(-50%) translateX(0px);
+              opacity: 1;
+            }
+          }
+      }
+      .news_admissions {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        .block_news .home_news_small .home_news_small_item{
+            &:first-child{
+                padding-top: 0;
+            }
+            + .home_news_small_item{
+                border: none;
+            }
+            .home_news_small_cont h3 a{
+                font-weight: 700;
+            }
+            
+        } 
+        .news_page_list {
+            .home_news_item .home_news_cont {
+                h3 {
+                  a {
+                    font-size: 16px;
+                  }
+              
+                  margin-bottom: 10px;
+                }
+              
+                .home_news_desc {
+                  font-size: 15px;
+                }
+              }
+        }
+          
+    }
+}
+  

@@ -114,4 +114,66 @@
  
       
   }
+
+.info_page {
+  margin-bottom: 30px;
+  .info_details{
+    &_img{
+      @media only screen and (max-width: 767px){
+        margin-bottom: 30px;
+      }
+    }
+    &_desc {
+      h3 {
+        font-weight: 700;
+        font-style: normal;
+        color: #f10e1d;
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+      margin-bottom: 30px;
+    }
+  }
+  .info_career {
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 30px;
+    padding-bottom: 30px;
   
+    .home_info_main .home_info_cont h2 {
+      color: #fff;
+  
+      span {
+        color: #fff;
+      }
+    }
+  
+    .info_career_cont ul {
+      li {
+        max-width: 48%;
+        flex: 0 0 48%;
+        float: left;
+        color: #fff;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        list-style: disc;
+      }
+  
+      margin-bottom: 20px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+  .info_vision {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgb(255, 255, 255);
+    &_img{
+      @media only screen and (max-width: 767px){
+        margin-bottom: 30px;
+      }
+    }
+  }
+
+}

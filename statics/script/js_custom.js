@@ -77,8 +77,32 @@ $(document).ready(function() {
                 }
             }
         });
-}
-
+    }
+    if ($(".owl-noti-item").length > 0) {
+        $(".owl-noti-item").owlCarousel({
+            dots:false,
+            loop:true,
+            responsiveClass:true,
+            nav:true,
+            margin:20,
+            autoplay:3000,
+            navText: ['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
+            responsive:{
+                0:{
+                    items:1,
+                },
+                600:{
+                    items:2,
+                },
+                768:{
+                    items:2,
+                },
+                1024:{
+                    items:4,
+                }
+            }
+        });
+    }
 });
 // Scroll To Top //
 $(document).ready(function () {
