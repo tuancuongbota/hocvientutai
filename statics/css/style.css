@@ -7659,18 +7659,28 @@ table { width: 100% !important; }
 
 #header { position: relative; width: 100%; z-index: 1001; }
 #header .container { max-width: 100%; padding: 0; }
-#header .top-bar { background-color: #10793d; position: relative; z-index: 9; padding: 8px 0; line-height: 14px; }
-#header .top-bar ul { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; padding-right: 100px; }
+#header .top-bar { background-color: #10793d; position: relative; }
+#header .top-bar ul { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; padding-right: 100px; -webkit-box-align: center; -ms-flex-align: center; align-items: center; height: 31px; line-height: 1; }
 @media only screen and (min-width: 1280px) and (max-width: 1380px) { #header .top-bar ul { padding-right: 65px; } }
 @media only screen and (min-width: 1000px) and (max-width: 1280px) { #header .top-bar ul { padding-right: 50px; } }
 @media only screen and (max-width: 767px) { #header .top-bar ul { padding: 0; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; } }
+#header .login { margin-left: 15px; color: #fff; }
+#header .login > a { color: #fff; font-weight: bold; font-size: 15px; }
+#header .login.dropdown button { background: transparent; border: none; padding: 0; color: #fff; font-size: 15px; outline: none; -webkit-box-shadow: unset !important; box-shadow: unset !important; }
+#header .login.dropdown button img { margin-right: 5px; }
+#header .login .dropdown-menu { top: calc(100% - 20px) !important; border-top-left-radius: 0; border-top-right-radius: 0; }
+#header .login .dropdown-item { padding: 10px 20px; font-size: 15px; }
+#header .login .dropdown-item:active, #header .login .dropdown-item.active { background-color: #10793d; }
+#header .login .dropdown-item:last-child { border-top: 1px solid #ddd; margin-top: 15px; padding-top: 15px; }
+#header .login .dropdown-item > a { color: #000; }
 #header .hotline_top { font-size: 15px; font-weight: bold; }
 #header .hotline_top a { color: #fff; }
 #header .header-social-icons a { font-size: 12px; color: #fff; }
 #header .social-icons { margin-left: 8px; }
 @media only screen and (max-width: 767px) { #header .social-icons { display: none; } }
 #header .social-icons a + a { margin-left: 3px; }
-#header .header-main { position: relative; z-index: 10; }
+#header .header-main { background: #fff; position: relative; z-index: 10; }
+@media only screen and (max-width: 992px) { #header .header-main { overflow: hidden; } }
 #header .header-main #logo { position: absolute; z-index: 999; background: #fff; display: block; top: -31px; padding: 14px 3px 11px 100px; min-height: 105px; width: 23%; }
 @media only screen and (min-width: 1000px) and (max-width: 1280px) { #header .header-main #logo { padding: 23px 3px 15px 50px; } }
 @media only screen and (max-width: 1024px) { #header .header-main #logo { padding: 38px 3px 15px 45px; width: 20%; } }
